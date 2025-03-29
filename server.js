@@ -23,7 +23,7 @@ mongoose
   .then(() => {
     console.log('DB connection successfull!');
   });
-const port = process.env.port || 3000;
+const port =  3000;
 
 console.log(app.get('env'));
 // console.log(process.env);
